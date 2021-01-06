@@ -25,7 +25,8 @@ const builtinExtensions = {
     boost: () => require('../extensions/scratch3_boost'),
     poweredUp: () => require('../extensions/scratch3_powered_up'),
     speech: () => require('../extensions/scratch3_speech'),
-    gdxfor: () => require('../extensions/scratch3_gdx_for')
+    gdxfor: () => require('../extensions/scratch3_gdx_for'),
+    iftttWebhooks: () => require('../extensions/scratch3_iftttWebhooks')
 };
 
 /**
