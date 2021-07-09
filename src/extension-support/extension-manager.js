@@ -29,6 +29,8 @@ const builtinExtensions = {
     iftttWebhooks: () => require('../extensions/scratch3_iftttWebhooks')
 };
 
+builtinExtensions.legoremote = () => require('../extensions/scratch3_legoremote');
+
 builtinExtensions.legoble = () => require('../extensions/scratch3_legoble');
 
 /**
