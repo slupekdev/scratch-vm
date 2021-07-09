@@ -29,6 +29,8 @@ const builtinExtensions = {
     iftttWebhooks: () => require('../extensions/scratch3_iftttWebhooks')
 };
 
+builtinExtensions.legoble = () => require('../extensions/scratch3_legoble');
+
 /**
  * @typedef {object} ArgumentInfo - Information about an extension block argument
  * @property {ArgumentType} type - the type of value this argument can take
